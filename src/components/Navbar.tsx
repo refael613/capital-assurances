@@ -27,7 +27,7 @@ const Navbar = () => {
               <img
                 src="/lovable-uploads/e2224991-9c17-4a55-934e-3c4b6825e2a6.png"
                 alt="Capital Assurances Logo"
-                className="h-10"
+                className="h-16 md:h-20" // Increased size, responsive
               />
             </Link>
           </div>

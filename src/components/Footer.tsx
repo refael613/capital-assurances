@@ -5,14 +5,16 @@ import { Phone, Mail, Facebook, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-white py-12">
+    <footer className="bg-white text-black py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">
-              <span className="text-primary">CAPITAL</span> ASSURANCES
-            </h3>
+            <img
+              src="/lovable-uploads/e2224991-9c17-4a55-934e-3c4b6825e2a6.png"
+              alt="Capital Assurances Logo"
+              className="h-16 mb-4"
+            />
             <p className="mb-4">
               Votre courtier en assurances pour particuliers, professionnels et
               entreprises.
@@ -88,7 +90,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-600 mt-8 pt-6 text-center text-sm text-gray-300">
+        <div className="border-t border-gray-200 mt-8 pt-6 text-center text-sm text-gray-600">
           © {new Date().getFullYear()} Capital Assurances. Tous droits réservés.
         </div>
       </div>
