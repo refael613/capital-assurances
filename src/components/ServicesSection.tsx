@@ -1,3 +1,4 @@
+
 import { UserCheck, FileText, Euro } from "lucide-react";
 
 const ServicesSection = () => {
@@ -12,13 +13,13 @@ const ServicesSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Using the icons from the provided design */}
+          {/* Service 1 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
-            <img 
-              src="/lovable-uploads/d8f0d9e4-41ee-4d0e-8dca-727ccec3601c.png" 
-              alt="Service client personnalisé"
-              className="h-48 w-full object-cover"
-            />
+            <div className="h-48 bg-gradient-to-r from-gray-200 to-gray-300 flex items-center justify-center">
+              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
+                <UserCheck className="w-10 h-10 text-primary" />
+              </div>
+            </div>
             <div className="p-6">
               <h3 className="text-xl font-bold text-primary mb-3">
                 Service client personnalisé
@@ -29,12 +30,13 @@ const ServicesSection = () => {
             </div>
           </div>
 
+          {/* Service 2 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
-            <img 
-              src="/lovable-uploads/8e2305f3-6733-4386-8a48-9dfbfdb9a81c.png" 
-              alt="Gestion complète des contrats"
-              className="h-48 w-full object-cover"
-            />
+            <div className="h-48 bg-gradient-to-r from-gray-200 to-gray-300 flex items-center justify-center">
+              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
+                <FileText className="w-10 h-10 text-primary" />
+              </div>
+            </div>
             <div className="p-6">
               <h3 className="text-xl font-bold text-primary mb-3">
                 Gestion complète des contrats
@@ -45,6 +47,7 @@ const ServicesSection = () => {
             </div>
           </div>
 
+          {/* Service 3 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
             <div className="h-48 bg-gradient-to-r from-gray-200 to-gray-300 flex items-center justify-center">
               <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
