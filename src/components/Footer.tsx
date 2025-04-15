@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, Facebook, Linkedin, Instagram } from "lucide-react";
@@ -10,6 +9,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
+            <Link to="/" className="block mb-4">
+              <img
+                src="/lovable-uploads/960515c7-faca-496e-8398-c616c70dfe52.png"
+                alt="Capital Assurances Logo"
+                className="h-12 brightness-0 invert"
+              />
+            </Link>
             <h3 className="text-xl font-bold mb-4">
               <span className="text-primary">CAPITAL</span> ASSURANCES
             </h3>

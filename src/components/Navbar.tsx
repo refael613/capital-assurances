@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ChevronDown, Menu, X } from "lucide-react";
@@ -25,9 +24,9 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
               <img
-                src="/lovable-uploads/e2224991-9c17-4a55-934e-3c4b6825e2a6.png"
+                src="/lovable-uploads/960515c7-faca-496e-8398-c616c70dfe52.png"
                 alt="Capital Assurances Logo"
-                className="h-10"
+                className="h-12"
               />
             </Link>
           </div>
