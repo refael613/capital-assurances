@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, Facebook, Linkedin, Instagram } from "lucide-react";
@@ -11,9 +10,9 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <img
-              src="/lovable-uploads/e2224991-9c17-4a55-934e-3c4b6825e2a6.png"
+              src="/lovable-uploads/d27783b6-3f3d-44cf-a2c8-e3900072abce.png"
               alt="Capital Assurances Logo"
-              className="h-16 mb-4"
+              className="h-24 w-auto max-w-full object-contain mb-4"
             />
             <p className="mb-4">
               Votre courtier en assurances pour particuliers, professionnels et

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ChevronDown, Menu, X } from "lucide-react";
@@ -25,9 +24,9 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
               <img
-                src="/lovable-uploads/e2224991-9c17-4a55-934e-3c4b6825e2a6.png"
+                src="/lovable-uploads/d27783b6-3f3d-44cf-a2c8-e3900072abce.png"
                 alt="Capital Assurances Logo"
-                className="h-16 md:h-20" // Increased size, responsive
+                className="h-24 w-auto max-w-full object-contain" // Increased size, full width, maintain aspect ratio
               />
             </Link>
           </div>
