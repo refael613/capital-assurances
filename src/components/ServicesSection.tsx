@@ -19,7 +19,7 @@ const ServicesSection = () => {
               <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: "url('/lovable-uploads/service1.png')"
+                  backgroundImage: "url('/lovable-uploads/service1.jpg')"
                 }}
               ></div>
               {/* Semi-transparent overlay */}
