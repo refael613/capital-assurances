@@ -15,12 +15,7 @@ const ServicesSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Service 1 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
-            <div 
-              className="h-48 bg-cover bg-center"
-              style={{
-                backgroundImage: "url('/lovable-uploads/d177fdbb-8302-4f78-9b2f-a405f86750ba.png')"
-              }}
-            >
+            <div className="h-48 bg-gradient-to-r from-gray-200 to-gray-300 flex items-center justify-center">
               <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
                 <UserCheck className="w-10 h-10 text-primary" />
               </div>
@@ -37,12 +32,7 @@ const ServicesSection = () => {
 
           {/* Service 2 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
-            <div 
-              className="h-48 bg-cover bg-center"
-              style={{
-                backgroundImage: "url('/lovable-uploads/ef59c162-50e9-4c73-bba7-46da23d461d6.png')"
-              }}
-            >
+            <div className="h-48 bg-gradient-to-r from-gray-200 to-gray-300 flex items-center justify-center">
               <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
                 <FileText className="w-10 h-10 text-primary" />
               </div>
@@ -59,12 +49,7 @@ const ServicesSection = () => {
 
           {/* Service 3 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
-            <div 
-              className="h-48 bg-cover bg-center"
-              style={{
-                backgroundImage: "url('/lovable-uploads/d73c6a43-5508-43ef-b5cf-39fb4b3b76b4.png')"
-              }}
-            >
+            <div className="h-48 bg-gradient-to-r from-gray-200 to-gray-300 flex items-center justify-center">
               <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
                 <Euro className="w-10 h-10 text-primary" />
               </div>
