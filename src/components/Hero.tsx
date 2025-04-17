@@ -14,7 +14,9 @@ const Hero = () => {
         style={{
           backgroundImage: `url('/lovable-uploads/CAPITAL (2).png')`,
           width: '100%',
-          height: '100%'
+          height: '100%',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
         }}
       ></div>
       
