@@ -24,9 +24,9 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
               <img
-                src="/lovable-uploads/d27783b6-3f3d-44cf-a2c8-e3900072abce.png"
+                src="/lovable-uploads/1616b15a-3a62-4e44-9f8f-fd9b069757b9.png"
                 alt="Capital Assurances Logo"
-                className="h-24 w-auto max-w-full object-contain" // Increased size, full width, maintain aspect ratio
+                className="h-24 w-auto max-w-full object-contain"
               />
             </Link>
           </div>
@@ -44,12 +44,6 @@ const Navbar = () => {
               className="text-black hover:text-primary font-medium transition-colors"
             >
               Assurances
-            </Link>
-            <Link
-              to="/carte-grise"
-              className="text-black hover:text-primary font-medium transition-colors"
-            >
-              Carte Grise
             </Link>
             <Link
               to="/contact"
@@ -114,13 +108,6 @@ const Navbar = () => {
               onClick={toggleMenu}
             >
               Assurances
-            </Link>
-            <Link
-              to="/carte-grise"
-              className="block text-black hover:text-primary font-medium py-2"
-              onClick={toggleMenu}
-            >
-              Carte Grise
             </Link>
             <Link
               to="/contact"

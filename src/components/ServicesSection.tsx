@@ -25,7 +25,7 @@ const ServicesSection = () => {
                 Service client personnalisé
               </h3>
               <p className="text-black">
-                Un conseiller dédié vous accompagne tout au long de votre parcours, de la recherche de contrat à la gestion des sinistres. Nous sommes à votre écoute pour répondre à toutes vos questions.
+                Un expert vous est attribué pour vous guider à chaque étape, de la sélection de votre contrat jusqu'au suivi en cas de sinistre. Toujours disponibles, nous restons à votre disposition pour répondre à vos besoins et interrogations.
               </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ const ServicesSection = () => {
                 Gestion complète des contrats
               </h3>
               <p className="text-black">
-                Nous prenons en charge l'ensemble de vos démarches administratives liées à vos contrats d'assurance. Un gain de temps précieux et l'assurance d'un suivi rigoureux.
+                Un expert vous est attribué pour vous guider à chaque étape, de la sélection de votre contrat jusqu'au suivi en cas de sinistre. Toujours disponibles, nous restons à votre disposition pour répondre à vos besoins et interrogations.
               </p>
             </div>
           </div>
@@ -59,7 +59,8 @@ const ServicesSection = () => {
                 Économies assurées
               </h3>
               <p className="text-black">
-                Grâce à notre réseau de partenaires et à notre pouvoir de négociation, nous vous garantissons les meilleures couvertures aux tarifs les plus compétitifs du marché.
+                Des offres compétitives sans compromis sur la qualité<br />
+                Grâce à nos partenaires et notre connaissance du marché, nous sélectionnons pour vous les meilleures solutions d'assurance au juste prix.
               </p>
             </div>
           </div>

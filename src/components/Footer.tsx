@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <img
-              src="/lovable-uploads/d27783b6-3f3d-44cf-a2c8-e3900072abce.png"
+              src="/lovable-uploads/1616b15a-3a62-4e44-9f8f-fd9b069757b9.png"
               alt="Capital Assurances Logo"
               className="h-24 w-auto max-w-full object-contain mb-4"
             />
@@ -55,17 +55,17 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 mr-2" />
-                <span>01 23 45 67 89</span>
+                <span>06 51 22 40 39</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 mr-2" />
-                <a href="mailto:contact@capital-assurances.fr" className="hover:text-primary transition-colors">
-                  contact@capital-assurances.fr
+                <a href="mailto:contact@capital-assurances.com" className="hover:text-primary transition-colors">
+                  contact@capital-assurances.com
                 </a>
               </div>
               <div>
-                <p>123 Avenue des Assurances</p>
-                <p>75001 Paris, France</p>
+                <p>5 rue Fénelon</p>
+                <p>33000 Bordeaux</p>
               </div>
             </div>
           </div>

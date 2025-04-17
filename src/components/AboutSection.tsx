@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Shield, Home, Car, Users } from "lucide-react";
 
@@ -14,13 +13,13 @@ const AboutSection = () => {
           {/* Text Content */}
           <div>
             <p className="text-lg mb-6">
-              Fondée en 2021, <strong>Capital Assurances</strong> est un courtier en assurances spécialisé dans la recherche et la gestion de solutions d'assurance adaptées aux besoins des particuliers, professionnels et entreprises.
+              Capital Assurances est un cabinet de courtage spécialisé dans la recherche et la gestion de solutions d'assurance sur mesure, répondant aux besoins des particuliers, des professionnels et des entreprises.
             </p>
             <p className="text-lg mb-6">
-              Notre mission est de vous accompagner dans la protection de votre patrimoine, de votre activité et de vos proches en vous proposant des contrats d'assurance sur mesure et au meilleur prix.
+              Notre mission : vous accompagner dans la protection de votre patrimoine, de votre activité et de vos proches, en vous proposant des contrats personnalisés, compétitifs et parfaitement adaptés à votre situation.
             </p>
             <p className="text-lg mb-8">
-              Grâce à notre réseau de partenaires assureurs et à notre expertise, nous vous garantissons un service personnalisé et des conseils adaptés à votre situation spécifique.
+              Grâce à notre réseau solide de partenaires assureurs et à notre expertise du marché, nous vous offrons un accompagnement sur mesure, alliant proximité, réactivité et conseils avisés.
             </p>
             <Button className="bg-primary hover:bg-primary/90 text-white">
               Découvrez
@@ -29,7 +28,7 @@ const AboutSection = () => {
           
           {/* Illustration */}
           <div className="relative">
-            <div className="bg-gray-100 rounded-lg p-8 relative z-10">
+            <div className="bg-gray-100 rounded-lg p-8">
               <div className="grid grid-cols-2 gap-8">
                 <div className="flex flex-col items-center text-center">
                   <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mb-4">
@@ -57,7 +56,6 @@ const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute -top-4 -right-4 w-full h-full border-2 border-primary rounded-lg z-0"></div>
           </div>
         </div>
       </div>
