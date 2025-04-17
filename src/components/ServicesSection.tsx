@@ -14,20 +14,16 @@ const ServicesSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Service 1 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
-            <div className="h-48 relative overflow-hidden flex items-center justify-center">
+            <div className="h-48 relative overflow-hidden">
               {/* Background image */}
               <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: "url('/lovable-uploads/service1.jpg')"
+                  backgroundImage: "url('/lovable-uploads/service3.jpg')"
                 }}
               ></div>
               {/* Semi-transparent overlay */}
               <div className="absolute inset-0 bg-black/20"></div>
-              {/* Icon container */}
-              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center relative z-10">
-                <UserCheck className="w-10 h-10 text-primary" />
-              </div>
             </div>
             <div className="p-6">
               <h3 className="text-xl font-bold text-primary mb-3">
@@ -41,7 +37,7 @@ const ServicesSection = () => {
 
           {/* Service 2 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
-            <div className="h-48 relative overflow-hidden flex items-center justify-center">
+            <div className="h-48 relative overflow-hidden">
               {/* Background image */}
               <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -51,37 +47,28 @@ const ServicesSection = () => {
               ></div>
               {/* Semi-transparent overlay */}
               <div className="absolute inset-0 bg-black/20"></div>
-              {/* Icon container */}
-              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center relative z-10">
-                <FileText className="w-10 h-10 text-primary" />
-              </div>
             </div>
             <div className="p-6">
               <h3 className="text-xl font-bold text-primary mb-3">
                 Gestion complète des contrats
               </h3>
               <p className="text-black">
-                Un expert vous est attribué pour vous guider à chaque étape, de la sélection de votre contrat jusqu'au suivi en cas de sinistre. Toujours disponibles, nous restons à votre disposition pour répondre à vos besoins et interrogations.
-              </p>
+ Nous nous occupons de toutes les formalités administratives liées à vos assurances, vous permettant ainsi de gagner du temps et de bénéficier d’un suivi fiable et professionnel.              </p>
             </div>
           </div>
 
           {/* Service 3 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
-            <div className="h-48 relative overflow-hidden flex items-center justify-center">
+            <div className="h-48 relative overflow-hidden">
               {/* Background image */}
               <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: "url('/lovable-uploads/service3.jpg')"
+                  backgroundImage: "url('/lovable-uploads/service1.jpg')"
                 }}
               ></div>
               {/* Semi-transparent overlay */}
               <div className="absolute inset-0 bg-black/20"></div>
-              {/* Icon container */}
-              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center relative z-10">
-                <Euro className="w-10 h-10 text-primary" />
-              </div>
             </div>
             <div className="p-6">
               <h3 className="text-xl font-bold text-primary mb-3">
