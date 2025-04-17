@@ -1,6 +1,6 @@
-
 import { Shield, Home, Car, Heart, Briefcase, Building } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Assurances = () => {
   return (
@@ -12,7 +12,7 @@ const Assurances = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
                 <Home className="w-6 h-6 text-primary" />
@@ -23,11 +23,11 @@ const Assurances = () => {
               Protection complète pour votre résidence principale, secondaire ou bien locatif contre les dommages et la responsabilité civile.
             </p>
             <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-              En savoir plus
+              <Link to="/contact">En savoir plus</Link>
             </Button>
           </div>
 
-          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
                 <Car className="w-6 h-6 text-primary" />
@@ -38,11 +38,11 @@ const Assurances = () => {
               Des formules adaptées à vos besoins, de la simple responsabilité civile à la couverture tous risques pour votre véhicule.
             </p>
             <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-              En savoir plus
+              <Link to="/contact">En savoir plus</Link>
             </Button>
           </div>
 
-          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
                 <Heart className="w-6 h-6 text-primary" />
@@ -53,11 +53,11 @@ const Assurances = () => {
               Des garanties sur mesure pour vous accompagner dans vos dépenses de santé et vous offrir une protection optimale.
             </p>
             <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-              En savoir plus
+              <Link to="/contact">En savoir plus</Link>
             </Button>
           </div>
 
-          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
                 <Building className="w-6 h-6 text-primary" />
@@ -68,11 +68,11 @@ const Assurances = () => {
               Des solutions complètes pour protéger votre activité, vos locaux, vos salariés et votre responsabilité professionnelle.
             </p>
             <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-              En savoir plus
+              <Link to="/contact">En savoir plus</Link>
             </Button>
           </div>
 
-          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
                 <Briefcase className="w-6 h-6 text-primary" />
@@ -83,11 +83,11 @@ const Assurances = () => {
               Couverture spécifique pour les travailleurs indépendants, artisans, commerçants et professions libérales.
             </p>
             <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-              En savoir plus
+              <Link to="/contact">En savoir plus</Link>
             </Button>
           </div>
 
-          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
                 <Shield className="w-6 h-6 text-primary" />
@@ -98,7 +98,7 @@ const Assurances = () => {
               Protection financière pour vous et vos proches en cas d'accident, d'invalidité ou de décès.
             </p>
             <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-              En savoir plus
+              <Link to="/contact">En savoir plus</Link>
             </Button>
           </div>
         </div>
@@ -109,7 +109,7 @@ const Assurances = () => {
             Contactez-nous pour obtenir une analyse gratuite de vos besoins et un devis sur mesure.
           </p>
           <Button className="bg-primary hover:bg-primary/90 text-white">
-            Demander un devis
+            <Link to="/contact">Demander un devis</Link>
           </Button>
         </div>
       </div>

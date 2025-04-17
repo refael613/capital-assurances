@@ -8,44 +8,35 @@ const MentionsLegales = () => {
         <div className="prose max-w-none">
           <h2>Informations légales</h2>
           <p>
-            Le site Capital Assurances est édité par la société Capital Assurances, société à responsabilité limitée (SARL) au capital de 50 000 euros, immatriculée au Registre du Commerce et des Sociétés de Paris sous le numéro 123 456 789, dont le siège social est situé au 123 Avenue des Assurances, 75001 Paris, France.
+            Le site Capital Assurances est édité par la société Capital Assurances, entreprise de courtage en assurance située au 5 rue Fénelon, 33000 Bordeaux.
           </p>
           <p>
-            Numéro de TVA intracommunautaire : FR 12 123 456 789<br />
-            Numéro ORIAS : 12 345 678 (www.orias.fr)
+            ORIAS : 25002618 (www.orias.fr)
           </p>
           
-          <h2>Directeur de la publication</h2>
+          <h2>Contact</h2>
           <p>
-            Le directeur de la publication du site Capital Assurances est Monsieur Jean Dupont, en sa qualité de Gérant de la société Capital Assurances.
+            Téléphone : 06 51 22 40 39<br />
+            Email : contact@capital-assurances.com<br />
+            Adresse : 5 rue Fénelon, 33000 Bordeaux
           </p>
           
           <h2>Hébergement</h2>
           <p>
-            Le site Capital Assurances est hébergé par la société Hébergement Web SAS, société par actions simplifiée au capital de 100 000 euros, immatriculée au Registre du Commerce et des Sociétés de Paris sous le numéro 987 654 321, dont le siège social est situé au 456 Rue des Serveurs, 75002 Paris, France.
-          </p>
-          <p>
-            Téléphone : 01 98 76 54 32<br />
-            Email : contact@hebergementweb.fr
+            Le site Capital Assurances est hébergé par la société O2Switch, SAS au capital de 100 000 euros, immatriculée au Registre du Commerce et des Sociétés de Clermont-Ferrand sous le numéro 510 909 807, dont le siège social est situé au 222 Boulevard Gustave Flaubert, 63000 Clermont-Ferrand, France.
           </p>
           
           <h2>Propriété intellectuelle</h2>
           <p>
-            L'ensemble du contenu du site Capital Assurances (structure, textes, logos, images, photographies, vidéos, sons, etc.) est la propriété exclusive de la société Capital Assurances ou de ses partenaires. Toute reproduction, représentation, modification, publication, adaptation, totale ou partielle des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de la société Capital Assurances.
-          </p>
-          <p>
-            Toute exploitation non autorisée du site ou de l'un quelconque des éléments qu'il contient sera considérée comme constitutive d'une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.
+            L'ensemble du contenu du site Capital Assurances (structure, textes, logos, images, photographies, etc.) est la propriété exclusive de Capital Assurances. Toute reproduction, représentation, modification, publication, adaptation, totale ou partielle des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de Capital Assurances.
           </p>
           
           <h2>Données personnelles</h2>
           <p>
-            Les informations recueillies sur le site Capital Assurances font l'objet d'un traitement informatique destiné à la gestion de la relation client et à la prospection commerciale. Conformément à la loi "Informatique et Libertés" du 6 janvier 1978 modifiée, vous disposez d'un droit d'accès, de rectification et de suppression des données vous concernant.
+            Les informations recueillies sur le site Capital Assurances font l'objet d'un traitement informatique destiné à la gestion de la relation client et à la prospection commerciale. Conformément à la loi "Informatique et Libertés" du 6 janvier 1978 modifiée et au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification et de suppression des données vous concernant.
           </p>
           <p>
-            Vous pouvez exercer ce droit en nous adressant un email à l'adresse : rgpd@capital-assurances.fr ou par courrier à l'adresse : Capital Assurances - Service RGPD - 123 Avenue des Assurances, 75001 Paris, France.
-          </p>
-          <p>
-            Pour plus d'informations concernant la collecte et le traitement de vos données personnelles, nous vous invitons à consulter notre Politique de confidentialité.
+            Vous pouvez exercer ce droit en nous adressant un email à l'adresse : contact@capital-assurances.com ou par courrier à l'adresse : Capital Assurances - 5 rue Fénelon, 33000 Bordeaux.
           </p>
           
           <h2>Cookies</h2>
@@ -55,10 +46,7 @@ const MentionsLegales = () => {
           
           <h2>Limitation de responsabilité</h2>
           <p>
-            La société Capital Assurances s'efforce d'assurer au mieux de ses possibilités l'exactitude et la mise à jour des informations diffusées sur son site. Toutefois, elle ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur le site.
-          </p>
-          <p>
-            La société Capital Assurances décline toute responsabilité pour toute imprécision, inexactitude ou omission portant sur des informations disponibles sur le site, ainsi que pour tous dommages résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à disposition sur le site.
+            Capital Assurances s'efforce d'assurer au mieux de ses possibilités l'exactitude et la mise à jour des informations diffusées sur son site. Toutefois, elle ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur le site.
           </p>
         </div>
       </div>
