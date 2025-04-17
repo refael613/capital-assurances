@@ -1,6 +1,7 @@
+
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, Facebook, Linkedin, Instagram } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -18,35 +19,6 @@ const Footer = () => {
               Votre courtier en assurances pour particuliers, professionnels et
               entreprises.
             </p>
-            <div className="flex space-x-4">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Facebook"
-                className="hover:text-primary transition-colors"
-              >
-                <Facebook />
-              </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="LinkedIn"
-                className="hover:text-primary transition-colors"
-              >
-                <Linkedin />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="hover:text-primary transition-colors"
-              >
-                <Instagram />
-              </a>
-            </div>
           </div>
 
           {/* Contact Info */}
@@ -66,6 +38,7 @@ const Footer = () => {
               <div>
                 <p>5 rue Fénelon</p>
                 <p>33000 Bordeaux</p>
+                <p className="mt-2 text-sm">ORIAS 25002618</p>
               </div>
             </div>
           </div>
