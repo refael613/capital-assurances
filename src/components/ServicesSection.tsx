@@ -1,4 +1,3 @@
-
 import { UserCheck, FileText, Euro } from "lucide-react";
 
 const ServicesSection = () => {
@@ -15,8 +14,18 @@ const ServicesSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Service 1 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
-            <div className="h-48 bg-gradient-to-r from-gray-200 to-gray-300 flex items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
+            <div className="h-48 relative overflow-hidden flex items-center justify-center">
+              {/* Background image */}
+              <div 
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                style={{
+                  backgroundImage: "url('/lovable-uploads/service1.jpg')"
+                }}
+              ></div>
+              {/* Semi-transparent overlay */}
+              <div className="absolute inset-0 bg-black/20"></div>
+              {/* Icon container */}
+              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center relative z-10">
                 <UserCheck className="w-10 h-10 text-primary" />
               </div>
             </div>
@@ -32,8 +41,18 @@ const ServicesSection = () => {
 
           {/* Service 2 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
-            <div className="h-48 bg-gradient-to-r from-gray-200 to-gray-300 flex items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
+            <div className="h-48 relative overflow-hidden flex items-center justify-center">
+              {/* Background image */}
+              <div 
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                style={{
+                  backgroundImage: "url('/lovable-uploads/service2.jpg')"
+                }}
+              ></div>
+              {/* Semi-transparent overlay */}
+              <div className="absolute inset-0 bg-black/20"></div>
+              {/* Icon container */}
+              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center relative z-10">
                 <FileText className="w-10 h-10 text-primary" />
               </div>
             </div>
@@ -49,8 +68,18 @@ const ServicesSection = () => {
 
           {/* Service 3 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform hover:scale-105">
-            <div className="h-48 bg-gradient-to-r from-gray-200 to-gray-300 flex items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
+            <div className="h-48 relative overflow-hidden flex items-center justify-center">
+              {/* Background image */}
+              <div 
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                style={{
+                  backgroundImage: "url('/lovable-uploads/service3.jpg')"
+                }}
+              ></div>
+              {/* Semi-transparent overlay */}
+              <div className="absolute inset-0 bg-black/20"></div>
+              {/* Icon container */}
+              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center relative z-10">
                 <Euro className="w-10 h-10 text-primary" />
               </div>
             </div>
