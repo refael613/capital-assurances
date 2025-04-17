@@ -1,8 +1,17 @@
 
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const Hero = () => {
+  useEffect(() => {
+    // Log to check if image is loading
+    const img = new Image();
+    img.src = '/lovable-uploads/CAPITAL (2).jpg';
+    img.onload = () => console.log('Hero background image loaded successfully');
+    img.onerror = (e) => console.error('Hero background image failed to load', e);
+  }, []);
+
   return (
     <div className="relative h-[600px] overflow-hidden">
       {/* Background overlay */}
