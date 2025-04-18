@@ -106,11 +106,11 @@ const ContactSection = () => {
 
             {/* Image */}
             <div className="flex items-center justify-center">
-              <div className="relative w-full h-80 bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center text-gray-500">
-                  <span className="text-sm">Image d'une famille avec des cartons de déménagement</span>
-                </div>
-              </div>
+              <img
+                src="/lovable-uploads/contact.png"
+                alt="Contact"
+                className="w-full h-auto rounded-lg object-cover"
+              />
             </div>
           </div>
         </div>
