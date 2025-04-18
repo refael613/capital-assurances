@@ -107,7 +107,7 @@ const ContactSection = () => {
             {/* Image */}
             <div className="flex items-center justify-center">
               <img
-                src="/lovable-uploads/ccb26003-c033-478d-b370-83438c6adeaa.png"
+                src="/lovable-uploads/96324fe5-bfa1-40fe-96d3-a6cb1aeef778.png"
                 alt="Contact"
                 className="w-full h-auto rounded-lg object-cover"
                 onError={(e) => {
