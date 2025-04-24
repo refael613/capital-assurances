@@ -1,13 +1,8 @@
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -51,28 +46,6 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center text-black hover:text-primary font-medium transition-colors">
-                Mentions légales <ChevronDown className="ml-1 h-4 w-4" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent>
-                <DropdownMenuItem>
-                  <Link to="/mentions-legales" className="w-full">
-                    Mentions légales
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <Link to="/rgpd" className="w-full">
-                    RGPD
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <Link to="/cgv" className="w-full">
-                    CGV
-                  </Link>
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
           </div>
 
           {/* Mobile menu button */}
@@ -116,32 +89,6 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <div className="border-t border-gray-200 pt-2">
-              <div className="font-medium py-2">Mentions légales</div>
-              <div className="pl-4 space-y-2">
-                <Link
-                  to="/mentions-legales"
-                  className="block text-black hover:text-primary py-1"
-                  onClick={toggleMenu}
-                >
-                  Mentions légales
-                </Link>
-                <Link
-                  to="/rgpd"
-                  className="block text-black hover:text-primary py-1"
-                  onClick={toggleMenu}
-                >
-                  RGPD
-                </Link>
-                <Link
-                  to="/cgv"
-                  className="block text-black hover:text-primary py-1"
-                  onClick={toggleMenu}
-                >
-                  CGV
-                </Link>
-              </div>
-            </div>
           </div>
         )}
       </div>

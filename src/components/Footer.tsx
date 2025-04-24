@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail } from "lucide-react";
@@ -27,7 +26,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 mr-2" />
-                <span>06 51 22 40 39</span>
+                <span>05 32 26 15 42</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 mr-2" />
