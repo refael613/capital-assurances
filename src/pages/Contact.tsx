@@ -1,3 +1,4 @@
+
 import { Mail, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -65,7 +66,12 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div className="ml-4">
                     <h3 className="font-medium">Téléphone</h3>
-                    <p className="mt-1">05 32 26 15 42</p>
+                    <a 
+                      href="tel:0532261542" 
+                      className="mt-1 block text-black hover:text-primary transition-colors"
+                    >
+                      05 32 26 15 42
+                    </a>
                   </div>
                 </div>
                 
@@ -73,7 +79,12 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div className="ml-4">
                     <h3 className="font-medium">Email</h3>
-                    <p className="mt-1">contact@capital-assurances.com</p>
+                    <a 
+                      href="mailto:contact@capital-assurances.com" 
+                      className="mt-1 block text-black hover:text-primary transition-colors"
+                    >
+                      contact@capital-assurances.com
+                    </a>
                   </div>
                 </div>
                 
