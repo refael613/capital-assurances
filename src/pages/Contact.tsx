@@ -1,10 +1,9 @@
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 import { toast } from "sonner";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -66,16 +65,7 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div className="ml-4">
                     <h3 className="font-medium">Téléphone</h3>
-                    <div className="mt-1 flex items-center gap-2">
-                      <p>05 32 26 15 42</p>
-                      <Link 
-                        to="tel:0532261542"
-                        className="text-primary hover:text-primary/80"
-                        aria-label="Appeler"
-                      >
-                        <Phone className="h-4 w-4" />
-                      </Link>
-                    </div>
+                    <p className="mt-1">05 32 26 15 42</p>
                   </div>
                 </div>
                 

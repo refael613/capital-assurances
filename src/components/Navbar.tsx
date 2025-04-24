@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -26,6 +26,18 @@ const Navbar = () => {
             </Link>
           </div>
 
+          {/* Call Button (visible on both mobile and desktop) */}
+          <Button
+            variant="ghost"
+            asChild
+            className="text-primary hover:text-primary/80"
+          >
+            <a href="tel:0532261542" className="flex items-center gap-2">
+              Appelez-nous
+              <PhoneCall className="h-4 w-4" />
+            </a>
+          </Button>
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
@@ -49,7 +61,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden">
             <Button
               variant="ghost"
               size="icon"
